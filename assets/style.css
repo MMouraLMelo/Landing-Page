@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(51, 168, 219);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/*------- Cabeçalho (header)-------*/
+.banner {
+    height: 605px;
+    background: url(./images/banner.png), linear-gradient(rgba(0, 0, 0, 0.856), rgba(11, 28, 36, 0.856), rgba(0, 0, 0, 0.856));
+    border-bottom: 1px rgb(51, 168, 219) solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.banner-content {
+   width: 510px;
+   height: 393px;
+   margin: 0 auto;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(rgb(42, 152, 208), rgb(29, 130, 193));
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+    width: 450px;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+    width: auto;
+    margin-bottom: 30px;
+    word-break: break-all;
+    
+}
+
+.logo {
+    padding: 20px 20px 0px 20px;
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(42, 152, 208);
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(42, 152, 208), rgb(29, 130, 193));
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+button { 
+    border: 4px solid rgb(42, 152, 208);
+    font-weight: bold;
+    padding:25px 50px 25px 50px;
+    background-color: transparent;
+}
+
+/*------- Fim cabeçalho (header)-------*/
+
+/*------- Corpo (main)-------*/
+
+
+
+#course-content {
+    padding: 80px;
+}
+
+#course-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+
+#course-content p {
+    color: white;
+    display: inline-block;
+    width: 800px;
+    margin-bottom: 35px;
+}
+
+.modulos-lista {
+    width: 530px;
+    margin: 0 auto;
+}
+.modulo {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(42, 152, 208);
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 25px;
+}
+
+.modulo span {
+    color: rgb(42, 152, 208);
+}
+
+#transforme-mundo {
+    border-top:  1px solid rgb(51, 168, 219);
+    border-bottom: 1px solid rgb(51, 168, 219);
+    height: 450px;
+    background-image: url(./images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding:100px;
+}
+
+#transforme-mundo p {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-transform: lowercase;
+    text-shadow: 3px 2px rgb(51, 168, 219);
+    max-width: 250px;
+    display: block;
+    text-align: start;
+    padding: 55px 0 0 80px;
+}
+
+#desafios-profissionais {
+    margin-top: 60px;
+    width: 800px;
+    display: inline-block;
+}
+
+#desafios-profissionais h2 {
+    font-size:30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+#desafios-profissionais p {
+    color: white;
+    padding: 60px;
+}
+
+/**------- Fim corpo (main)-------*/
+
+/*------- Rodapé (footer)-------*/
+
+footer {
+    border-top: 1px solid rgb(51, 168, 219);
+    padding: 60px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(11, 28, 36, 0.856));
+}
+
+footer p {
+    color: white;
+    padding: 15px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(51, 168, 219);
+}
